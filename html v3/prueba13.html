@@ -1,0 +1,64 @@
+<!--
+  ENTIDAD: Centro de Biotecnologia Agropecuario
+  FICHA: 2558346
+  PROGRAMA: Analisis y Desarrollo de Software
+  AUTOR: Andres Esteban Castro 
+  OBJETIVO: Uso de las etiquetas HTML:p,strong,del,em,link,div,h1,blockquote,pre,ul,li,a,ol,dt,dd,
+  th,tr,td,table,caption,img,h4,br, form,imput.
+  -se le agrego css a los ejercicios(color,cambio de posicion de los textos)
+  FECHA CREACION: 06/08/2022
+  VERSION:3.0.0
+  W3C VALIDATOR: ok
+-->
+
+<!DOCTYPE html>
+<html lang="es">
+  <head>
+    <meta charset="UTF-8" />
+    <link rel="stylesheet" href="./css/ejercicio13.css" />
+    <title>Ejercicio 13</title>
+  </head>
+  <body>
+    <div id="ejercicio13">
+      <h3>Rellena tu CV</h3>
+      <form
+        action="/php/insertar_cv.php"
+        method="post"
+        enctype="multipart/form-data"
+      >
+        Nombre <br />
+        <input type="text" name="nombre" value="" size="20" maxlength="30" />
+        <br />
+        Apellidos <br />
+        <input type="text" name="apellidos" value="" size="50" maxlength="80" />
+        <br />
+        Contraseña <br />
+        <input type="password" name="contrasena" value="" maxlength="10" />
+        <br />
+        DNI <br />
+        <input type="text" name="dni" value="" size="10" maxlength="9" />
+        <br />
+        Sexo<br />
+        <input type="radio" name="sexo" value="hombre checked=" checked />
+        Hombre
+        <br />
+        <input type="radio" name="sexo" value="mujer" /> Mujer <br /><br />
+        Incluir mi foto <input type="file" name="foto" />
+
+        <br /><br />
+        <input
+          name="suscribir"
+          type="checkbox"
+          value="suscribir"
+          checked="checked"
+        />Suscribirme al boletin de novedades <br /><br />
+        <input type="submit" name="enviar" value="Guardar cambios" />
+      </form>
+      <input
+        type="reset"
+        name="limpiar"
+        value="Borrar los datos introducidos"
+      />
+    </div>
+  </body>
+</html>
