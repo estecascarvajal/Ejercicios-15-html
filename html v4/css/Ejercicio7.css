@@ -1,0 +1,96 @@
+*{
+    margin: 0;
+    padding: 0;
+
+}
+
+#container {
+width: 1300px;
+height: 1200px ;
+background-color: chocolate;
+margin-left: auto ;
+margin-right: auto;
+}
+
+#header {
+    width: 1300px;
+    height: 120px;
+    background-color: rgba(170, 57, 214, 0.774);
+}
+
+#enc {
+    position: relative;
+    left: 500px;
+    top: 30px;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    font-size: 35px;
+    color: rgb(24, 68, 163);
+}
+
+#nav {
+    width: 1300px;
+    height: 180px;
+    background-color: rgba(18, 134, 80, 0.863);
+}
+
+#men {
+    position: relative;
+    left: 500px;
+    top: 60px;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    font-size: 35px;
+    color: rgb(196, 238, 12);
+}
+
+#aside {
+    width: 1300px;
+    height: 820px;
+    background-color: rgb(62, 146, 179);
+}
+
+#menu {
+    position: relative;
+    left: 65px;
+    top: 24px;
+    font-size: 40px;
+    color: rgb(0, 0, 0);
+}
+
+#cue {
+    position: relative;
+    left: 70px;
+    top: 29px;
+    font-size: 28px;
+    color: rgb(0, 0, 0);
+}
+
+#footer {
+    float: left;
+    width: 1300px;
+    height: 100px;
+    background-color: rgb(6, 180, 79);
+}
+
+#pie {
+    position: relative;
+    left: 15px;
+    top: 10px;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    font-size: 25px;
+    color: rgb(13, 29, 173);
+}
+
+#right {
+    position: relative;
+    left: 15px;
+    top: 25px;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    font-size: 25px;
+    color: rgb(13, 29, 173);
+}
+
+#img {
+    position: relative;
+    left: 1120px;
+    top: -90px;
+}
