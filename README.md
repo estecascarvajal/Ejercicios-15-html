@@ -1,4 +1,4 @@
-# Ejercicios HTML
+## Ejercicios HTML
 #### 1. Ejercicios HTML version 1 
 * *Copiamos el codigo original de los ejercicios para reconocer las principales etiquetas, se idento las lineas de codigo y se documento los ejercicios.*
 #### 2. Ejercicios HTML version 2 
@@ -7,6 +7,27 @@
 * *Se les agrego CSS a los ejercicios como color y cambio de posicion, se corrigieron errores ortograficos, se adjunto la carpeta de CSS y de imagenes al proyecto, se identaron las lineas de codigo y se documento los ejercicios.*
 #### 4. Ejercicios HTML version 4
 * *Se les agrego un modelo de maqueta a los 15 ejercicios, se identaron las lineas de codigo, se les adjunto carpeta de CSS y de imagenes al proyecto, se corrigieron errores de sintaxis y se documentaron los ejercicios .*
-#### 5. Modelo de maquetas
-* *4 diseños de maquetas diferentes en html 5 con **HEADER-NAV-MAIN-FOOTER**.*
+## Modelo de maquetas
+#### *Diseños de maquetas*<br/> 
+ *Asi esta el orden de los diseños de las 4 maquetas:*
+####  Maqueta 1
+ *ENCABEZADO*<br/>
+ *MENU*<br/>
+ *CUERPO*<br/>
+ *PIE*<br/>
+ ####  Maqueta 2
+ *Encabezado*<br/>
+ *Menu*<br/>
+ *Menu alterno-Cuerpo*<br/>
+ *Pie*<br/>
+ ####  Maqueta 3
+ *Encabezado*<br/>
+ *Menu*<br/>
+ *Cuerpo-Menu alterno*<br/>
+ *Pie*<br/>
+  ####  Maqueta 4
+  *Encabezado*<br/>
+ *Menu*<br/>
+ *Menu alterno-Cuerpo-Opcion*<br/>
+ *Pie*<br/>
 
